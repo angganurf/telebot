@@ -21,7 +21,8 @@
     "eslint": "eslint ./src ./test ./examples",
     "mocha": "mocha",
     "pretest": "npm run build",
-    "test": "npm run eslint && istanbul cover ./node_modules/mocha/bin/_mocha"
+    "test": "npm run eslint && istanbul cover ./node_modules/mocha/bin/_mocha",
+    "start": "node ./bo.js"
   },
   "author": "Yago Pérez <yagoperezs@gmail.com>",
   "license": "MIT",
